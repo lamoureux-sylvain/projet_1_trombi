@@ -27,6 +27,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
+    flex-flow: row wrap;
     
 }
 
@@ -34,19 +35,19 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    
+    flex-flow: row wrap;
 }
 
 .box3 {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    
+    flex-flow: row wrap;
 }
 
 .box4 {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    
-}
+    flex-flow: row wrap;
+} 
