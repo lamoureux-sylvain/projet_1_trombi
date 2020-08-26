@@ -1,0 +1,52 @@
+.student img{
+    width: 300px;
+    height: 300px;
+    border:2px solid black;
+    border-radius:20px;
+    }
+
+
+.student img{
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.student img:hover,
+.student img:focus,
+.student img:active {
+    transform: scale(1.1);
+}
+
+.box1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+}
+
+.box2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+}
+
+.box3 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+}
+
+.box4 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+}
