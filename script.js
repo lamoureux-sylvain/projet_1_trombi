@@ -9,8 +9,10 @@ document.onkeydown = function(e){
     let change = document.getElementsByClassName("villani")
     for (i=0; i < change.length; i++ ) {
       change[i].src = "photos/CVillani.webp";
-      console.log(i);
-    }
+      }
+    document.getElementById("poincare").src = "photos/poincare.webp";
+    document.getElementById("thuglife").src = "photos/b2oba.webp";
+
     user_keys = [];
   }
 }
