@@ -1,10 +1,10 @@
 
 main {
-        
+
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
-    
+
 }
 
 .staff  {
@@ -18,7 +18,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
-    
+
 }
 
 .students {
@@ -38,7 +38,7 @@ main {
 }
 .staff img:hover {
   opacity: 1;
-  
+
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   background-color: white;
@@ -54,7 +54,7 @@ body {
     height: 200px;
     border:2px solid #F76C6C;
     border-radius:20px;
-    
+
     }
 
 
@@ -99,18 +99,18 @@ body {
     justify-content: center;
     flex-direction: row;
     flex-flow: row wrap;
-    
-    
-    
+
+
+
 }
 
 .sub_block {
-    
+
     margin: 4px;
-    
-    
+
+
 }
-  
+
 .box4 {
     display: flex;
     justify-content: flex-end;
