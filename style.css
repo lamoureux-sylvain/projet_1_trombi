@@ -64,11 +64,39 @@ body {
 /*---- footer ----*/
 #footer {
   background-color: #BDBDBB;
+  opacity: 0,8;
   color: #F76C6C;
   text-align: center;
-  width: 100%
+  width: 100;
+  padding : 4vh;
 }
+
+.footer_parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.footer_child a {
+  color: #F76C6C;
+  text-decoration: none;
+}
+
 .love {
-  padding-top: 1vh;
+  padding-top: 4vh;
+  font-size: 1.8vh;
   text-transform: uppercase;
+}
+
+@media all and (max-width:1080px){
+  .love {
+    font-size: 1.3vh;
+  }
+}
+
+@media all and (max-width:800px){
+  .love {
+    font-size: 0.8vh;
+  }
 }
