@@ -1,0 +1,79 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+body{
+	margin: 0;
+	background: white;
+	font-family: 'Work Sans'. Sans-serif:
+	height: 100%;
+	width: 100%;
+}
+
+section {
+	width: 100%;
+	height: 300Vh;
+
+}
+
+div {
+	float: left;
+}
+
+
+
+
+
+
+header{
+	background: #bdbdbb;
+	height: 250px;
+	position: fixed;
+	width: 100%;
+	opacity: 0.8;
+}
+
+
+.logo {
+	margin: 0px -100px 0px -100px;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	content: ""
+	padding: 25px;
+	
+	text-align: center;
+	
+    cursor: pointer; 
+
+	}
+	
+
+.glory {
+	margin-top: 250px;
+}
+
+
+
+
+.gotobtn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #27ae60;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center ;
+	 line-height: 50px;
+	 color: white;
+	 font-size: 22px;
+	 cursor: pointer;
+
+}
+
+
