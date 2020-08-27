@@ -1,6 +1,43 @@
+main {
+        display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+}
+
+
+
+
+.staff img {
+     width: 200px;
+    height: 200px;
+    border:2px solid black;
+    border-radius:20px; 
+}
+
+
+.staff img{
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.staff img:hover,
+.staff img:focus,
+.staff img:active {
+    transform: scale(1.1);
+}
+
+
 .student img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border:2px solid black;
     border-radius:20px;
     }
@@ -22,6 +59,36 @@
 .student img:active {
     transform: scale(1.1);
 }
+
+
+.box-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+}
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+}
+
+
+
+
+.box0 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+}
+
+
 
 .box1 {
     display: flex;
