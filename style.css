@@ -1,3 +1,44 @@
+
+main {
+        
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+}
+
+.staff  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+}
+
+.students {
+    justify-content: flex-end
+}
+
+
+
+.staff img:hover,
+.staff img:focus,
+.staff img:active {
+    transform: scale(1.1);
+}
+
+.staff img {
+  opacity: 0.5;
+}
+.staff img:hover {
+  opacity: 1;
+  
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   background-color: white;
@@ -9,10 +50,11 @@ body {
 
 
 .student img{
-    width: 300px;
-    height: 300px;
-    border:2px solid black;
+    width: 200px;
+    height: 200px;
+    border:2px solid #F76C6C;
     border-radius:20px;
+    
     }
 
 
@@ -32,29 +74,43 @@ body {
 .student img:active {
     transform: scale(1.1);
 }
+.student img {
+  opacity: 0.5;
+}
+.student img:hover {
+  opacity: 1;
+}
 
-.box1 {
+
+
+
+.manager_formateur {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: row;
     flex-flow: row wrap;
 
 }
 
-.box2 {
+
+
+.etudiants {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: row;
     flex-flow: row wrap;
+    
+    
+    
 }
 
-.box3 {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    flex-flow: row wrap;
+.sub_block {
+    
+    margin: 4px;
+    
+    
 }
-
+  
 .box4 {
     display: flex;
     justify-content: flex-end;
