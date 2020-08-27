@@ -89,6 +89,7 @@ body {
   text-transform: uppercase;
 }
 
+
 @media all and (max-width:1080px){
   .love {
     font-size: 1.3vh;
