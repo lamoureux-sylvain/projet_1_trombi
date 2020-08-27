@@ -11,10 +11,7 @@ document.onkeydown = function(e){
       change[i].src = "photos/CVillani.webp";
       }
     document.getElementById("poincare").src = "photos/poincare.webp";
-<<<<<<< HEAD
     document.getElementById("thuglife").src = "photos/b2oba.webp";
-=======
->>>>>>> dev
 
     user_keys = [];
   }
