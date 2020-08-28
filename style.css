@@ -1,24 +1,37 @@
+.eleonore {
+   display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 
-main {
-        
+.formateurs {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+    
+    
+    
+    
+.students {
+    
+    justify-content: center;
+    
     
 }
-
 
 
 .box {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
+    justify-content: center;
     
 }
 
-.students {
-    justify-content: flex-end
-}
+
 
 .staff img {
     width: 200px;
