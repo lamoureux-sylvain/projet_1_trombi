@@ -285,6 +285,12 @@ div.photo img {
   padding-top: 4vh;
   font-size: 1.8vh;
   text-transform: uppercase;
+ 
+}
+
+.love a {
+  text-decoration: none; 
+  color: #F76C6C;
 }
 
 

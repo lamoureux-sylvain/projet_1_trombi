@@ -125,11 +125,11 @@ function info_page(id) {
   }
   if (id=="10") {
     var name="Sylvain Lamoureux";
-    var age="x ans";
-    var mail="mail: mail@gmail.com";
-    var tel="tél: 00.00.00.00.00";
-    var lien1="Git: www.monlien.com";
-    var lien2="LinkedIn: www.monlien.com";
+    var age="32 ans";
+    var mail="mail: lamoureux.sylvain@gmail.com";
+    var tel="tél: 06.61.01.03.15";
+    var lien1="Git: https://github.com/lamoureux-sylvain";
+    var lien2="LinkedIn: https://www.linkedin.com/in/sylvain-lamoureux/";
     var message=name+'\n\n'+age+'\n'+mail+'\n'+tel+'\n\n'+lien1+'\n'+lien2;
     
     alert(message);
@@ -169,11 +169,11 @@ function info_page(id) {
   }
   if (id=="14") {
     var name="Étienne Rist";
-    var age="x ans";
-    var mail="mail: mail@gmail.com";
-    var tel="tél: 00.00.00.00.00";
-    var lien1="Git: www.monlien.com";
-    var lien2="LinkedIn: www.monlien.com";
+    var age="20 ans";
+    var mail="mail: etiennerist9@gmail.com";
+    var tel="tél: 07.82.67.66.90";
+    var lien1="Git: https://github.com/etienne-rist";
+    var lien2="LinkedIn: https://www.linkedin.com/in/etienne-rist-0750931a4/";
     var message=name+'\n\n'+age+'\n'+mail+'\n'+tel+'\n\n'+lien1+'\n'+lien2;
     
     alert(message);
@@ -183,8 +183,8 @@ function info_page(id) {
     var age="25 ans";
     var mail="alexandre.vilbert@gmail.com";
     var tel="06.65.02.33.07";
-    var lien1="Git: www.monlien.com";
-    var lien2="LinkedIn: www.monlien.com";
+    var lien1="Git: https://github.com/AlexV2204";
+    var lien2="LinkedIn: https://www.linkedin.com/in/alexandre-vilbert-5408051b0/";
     var message=name+'\n\n'+age+'\n'+mail+'\n'+tel+'\n\n'+lien1+'\n'+lien2;
     
     alert(message);
