@@ -34,7 +34,7 @@
 
 			 		<div class="eleonore">
              <div class="sub_block">
-                <img class="villani" src="photos/Eleonore.webp" alt="eleonore">
+                <img id="01" class="villani" src="photos/Eleonore.webp" alt="eleonore" onclick="info_page(this.id)">
 							  <div class="name">
 								  Éléonore D'Herbigny
 							</div>
@@ -42,28 +42,21 @@
          </div>
 				 <div class="formateurs">
                     <div class="sub_block">
-							<img id="thuglife" src="photos/CSimonin.webp" alt="cyril">
+							<img id="02" class="thuglife" src="photos/CSimonin.webp" alt="cyril" onclick="info_page(this.id)">
 
 
 							<div class="name">
 								Cyril Simonin
 							</div>
-						</div>
-						<div class="sub_block">
+					</div>
+					<div class="sub_block">
+							<img id="03" class="villani" src="photos/RJulien.webp" alt="remi" onclick="info_page(this.id)">
 
-
-
-							<img class="villani" src="photos/RJulien.webp" alt="remi">
 
 							<div class="name">
 								Rémi Julien
 							</div>
-						</div>
 					</div>
-
-                </div>
-
-
 	  		</section>
             
             <div class="line"></div>
@@ -77,34 +70,25 @@
 				<div class="block">
 					<div class="box">
 						<div class="sub_block">
-
-							<img class="villani" src="photos/FBertrand.webp" alt="frederic">
-
+							<img id="04" class="villani" src="photos/FBertrand.webp" alt="frederic" onclick="info_page(this.id)">
 							<div class="name">
 								Frédéric Bertrand
 							</div>
 						</div>
 						<div class="sub_block">
-
-							<img class="villani" src="photos/GCourtin.webp" alt="godefroy">
-
+							<img id="05" class="villani" src="photos/GCourtin.webp" alt="godefroy" onclick="info_page(this.id)">
 							<div class="name">
 								Godegroy Courtin
 							</div>
 						</div>
 						<div class="sub_block">
-
-
-							<img class="villani" src="photos/SDumont.webp" alt="stephanie">
-
+							<img id="06" class="villani" src="photos/SDumont.webp" alt="stephanie" onclick="info_page(this.id)">
 							<div class="name">
 								Stéphanie Dumont
 							</div>
 						</div>
 						<div class="sub_block">
-
-							<img class="villani" src="photos/SElineau.webp" alt="sylvain e">
-
+							<img id="07" class="villani" src="photos/SElineau.webp" alt="sylvain e" onclick="info_page(this.id)">
 							<div class="name">
 								Sylvain Elineau
 							</div>
@@ -112,33 +96,25 @@
 					</div>
 					<div class="box">
 					   <div class="sub_block">
-
-					       <img class="villani" src="photos/BGouchon.webp" alt="benjamin">
-
+					       <img id="08" class="villani" src="photos/BGouchon.webp" alt="benjamin" onclick="info_page(this.id)">
 					       <div class="name">
                                Benjamin Gouchon
                            </div>
 					   </div>
 					   <div class="sub_block">
-
-					       <img class="villani" src="photos/PMwimanzi.webp" alt="patrick">
-
+					       <img id="09" class="villani" src="photos/PMwimanzi.webp" alt="patrick" onclick="info_page(this.id)">
 					       <div class="name">
                                Patrick Mwimanzi
                            </div>
 				       </div>
 					   <div class="sub_block">
-
-					       <img class="villani" src="photos/SLamoureux.webp" alt="sylvain l">
-
+					       <img id="10" class="villani" src="photos/SLamoureux.webp" alt="sylvain l" onclick="info_page(this.id)">
 					       <div class="name">
                                Sylvain Lamoureux
                            </div>
 					   </div>
 					   <div class="sub_block">
-
-					       <img id="poincare" src="photos/ROponga.webp" alt="rolique">
-
+					       <img id="11" class="poincare" src="photos/ROponga.webp" alt="rolique" onclick="info_page(this.id)">
 					       <div class="name">
                                Rolique Oponga
                            </div>
@@ -146,30 +122,25 @@
                     </div>
 					   <div class="box">
 					   <div class="sub_block">
-
-					       <img class="villani" src="photos/PPondi.webp" alt="paola">
-
+					       <img id="12" class="villani" src="photos/PPondi.webp" alt="paola" onclick="info_page(this.id)">
 					       <div class="name">
                                Paola Pondi
                            </div>
 					   </div>
 					   <div class="sub_block">
-
-					       <img class="villani" src="photos/PRabu.webp" alt="pierre">
-
+					       <img id="13" class="villani" src="photos/PRabu.webp" alt="pierre" onclick="info_page(this.id)">
 					       <div class="name">
                                Pierre Rabu
                            </div>
 					   </div>
 					   <div class="sub_block">
-
-					       <img class="villani" src="photos/ERist.webp" alt="etienne">
+					       <img id="14" class="villani" src="photos/ERist.webp" alt="etienne" onclick="info_page(this.id)">
 					       <div class="name">
                                Étienne Rist
                            </div>
 					   </div>
 					   <div class="sub_block">
-						  <img class="villani" src="photos/AVilbert.webp" alt="alexandre">
+						  <img id="15" class="villani" src="photos/AVilbert.webp" alt="alexandre" onclick="info_page(this.id)">
 
 					       <div class="name">
                                Alexandre Vilbert
@@ -179,9 +150,125 @@
 
                 </div>
 			</section>
-
-
 		</main>
+		<section id="blur">
+			<div class="close"><a href="index.html">X</a></div>
+			<div id="01ip" class="hide">
+				<div class="photo">
+					<img src="photos/Eleonore.webp" alt="eleonore">
+				</div>
+				<h1>Éléonore d'Herbigny</h1>
+			</div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="02ip" class="hide">
+				<div class="photo">
+					<img src="photos/CSimonin.webp" alt="cyril">
+				</div>
+				<h1>Cyril Simonin</h1>
+			</div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="03ip" class="hide">
+				<div class="photo">
+					<img src="photos/RJulien.webp" alt="remi">
+				</div>
+				<h1>Remi Julien</h1>
+			</div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="04ip" class="hide">
+				<div class="photo">
+					<img src="photos/FBertrand.webp" alt="frederic">
+				</div>
+				<h1>Frédéric Bertrand</h1>
+			</div>       
+		</section>
+		<section id="blur" class="blur">
+			<div id="05ip" class="hide">
+				<div class="photo">
+					<img src="photos/GCourtin.webp" alt="godefroy">
+				</div>
+				<h1>Godegroy Courtin</h1>
+			</div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="06ip" class="hide">
+				<div class="photo">
+					<img src="photos/SDumont.webp" alt="stephanie">
+				</div>
+				<h1>Stéphanie Dumont</h1>
+			</div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="07ip" class="hide">
+				<div class="photo">
+					<img src="photos/SElineau.webp" alt="sylvain">
+				</div>
+				<h1>Sylvain Elineau</h1>
+			</div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="08ip" class="hide">
+				<div class="photo">
+					<img src="photos/Bgouchon.webp" alt="benjamin">
+				</div>
+				<h1>Benjamin Gouchon</h1>
+			</div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="09ip" class="hide">
+				<div class="photo">
+					<img src="photos/PMwimanzi.webp" alt="patrick">
+				</div>
+				<h1>Patrick Mwimanzi</h1>
+			</div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="10ip" class="hide"><div class="photo">
+				<img src="photos/SLamoureux.webp" alt="sylvain">
+			</div>
+			<h1>Sylvain Lamoureux</h1></div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="11ip" class="hide">
+				<div class="photo">
+					<img src="photos/ROponga.webp" alt="rolique">
+				</div>
+				<h1>Rolique Oponga</h1>
+			</div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="12ip" class="hide">
+				<div class="photo">
+					<img src="photos/PPondi.webp" alt="paola">
+				</div>
+				<h1>Paola Pondi</h1>
+			</div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="13ip" class="hide">
+				<div class="photo">
+					<img src="photos/PRabu.webp" alt="pierre">
+				</div>
+				<h1>Pierre Rabu</h1>
+			</div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="14ip" class="hide"><div class="photo">
+				<img src="photos/ERist.webp" alt="etienne">
+			</div>
+			<h1>Étienne Rist</h1>
+		</div>
+		</section>
+		<section id="blur" class="blur">
+			<div id="15ip" class="hide"><div class="photo">
+				<img src="photos/AVilbert.webp" alt="alexandre">
+			</div>
+			<h1>Alexandre Vilbert</h1>
+		</div>
+		</section>
+	</br>
 		<footer id="footer">
 			<div class="footer_parent">
 				<div class="footer_child"><a href="https://www.wildcodeschool.com/fr-FR/decouvrir-ecole"><i class="fab fa-jedi-order fa-2x"></i></a></div>
