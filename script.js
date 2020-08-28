@@ -13,6 +13,7 @@ document.onkeydown = function(e){
     document.getElementById("poincare").src = "photos/poincare.webp";
     document.getElementById("thuglife").src = "photos/b2oba.webp";
 
+
     user_keys = [];
   }
 }
