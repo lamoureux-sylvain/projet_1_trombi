@@ -19,9 +19,6 @@
 .students {
     
     justify-content: space-around;
-    
-    
-    
 
 }
 
@@ -62,12 +59,15 @@
 }
 
 .staff img {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .staff img:hover {
   opacity: 1;
 }
 
+.staff {
+    margin-bottom: 50px;
+}
 
 .student img{
     width: 200px;
@@ -95,7 +95,7 @@
     transform: scale(1.1);
 }
 .student img {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .student img:hover {
   opacity: 1;
@@ -119,6 +119,7 @@
     justify-content: center;
     flex-direction: row;
     flex-flow: row wrap;
+    margin-top: 50px;
 
 
 
@@ -175,10 +176,46 @@
 
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  background-color: white;
+  background-color: #F1F1EF;
   width: 100%;
   max-width: 100%;
   padding: 0;
   margin: 0;
 
 }
+
+.name {
+    margin: 15px;
+    font-family: 'Roboto';
+    color: #015F7D;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    color: #015F7D;
+    font-size: 40px;
+    
+    
+    
+}
+
+.line {
+    
+    
+    margin:auto;
+    border-radius: 4px;
+    border-top: 5px solid #F76C6C;
+    width: 85%;
+   
+    
+    
+}
+
+
