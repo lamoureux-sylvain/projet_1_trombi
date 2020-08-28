@@ -10,8 +10,16 @@ document.onkeydown = function(e){
     for (i=0; i < change.length; i++ ) {
       change[i].src = "photos/CVillani.webp";
       }
-    document.getElementById("poincare").src = "photos/poincare.webp";
-    document.getElementById("thuglife").src = "photos/b2oba.webp";
+    
+    let change1 = document.getElementsByClassName("thuglife")
+    for (i=0; i < change1.length; i++ ) {
+      change1[i].src = "photos/b2oba.webp";
+      }
+
+    let change2 = document.getElementsByClassName("poincare")
+    for (i=0; i < change2.length; i++ ) {
+    change2[i].src = "photos/poincare.webp";
+    }
 
     user_keys = [];
   }
