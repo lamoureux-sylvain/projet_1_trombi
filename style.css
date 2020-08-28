@@ -230,6 +230,10 @@ nav a:hover::before {
   text-decoration: none;
 }
 
+.footer_child a:hover {
+  color: #015f7d;
+}
+
 .love {
   padding-top: 4vh;
   font-size: 1.8vh;
