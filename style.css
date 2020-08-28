@@ -18,7 +18,8 @@
     
 .students {
     
-    justify-content: center;
+    justify-content: space-around;
+    
     
     
 
@@ -30,7 +31,9 @@
     flex-direction: row;
     flex-flow: row wrap;
 
-    justify-content: center;
+
+    justify-content: space-around;
+
     
 
 }
@@ -177,4 +180,5 @@ body {
   max-width: 100%;
   padding: 0;
   margin: 0;
+
 }
