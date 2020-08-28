@@ -135,6 +135,7 @@ nav a:hover::before {
 }
 .staff img:hover {
   opacity: 1;
+  border:2px solid  #015f7d;
 }
 
 
