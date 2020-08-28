@@ -1,21 +1,40 @@
-main {
 
+.eleonore {
+   display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.formateurs {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+    
+    
+    
+    
+.students {
+    
+    justify-content: center;
+    
+    
 
 }
+
 
 .box {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
 
+    justify-content: center;
+    
+
 }
 
-.students {
-    justify-content: flex-end
-}
 
 .staff img {
     width: 200px;
@@ -27,6 +46,7 @@ main {
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
+
 
     transition-duration: 0.3s;
     transition-property: transform;
@@ -61,7 +81,7 @@ main {
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
-
+    
     transition-duration: 0.3s;
     transition-property: transform;
 }
@@ -86,7 +106,7 @@ main {
     justify-content: center;
     flex-direction: row;
     flex-flow: row wrap;
-
+    
 }
 
 
@@ -104,7 +124,6 @@ main {
 .sub_block {
 
     margin: 4px;
-
 
 }
 
