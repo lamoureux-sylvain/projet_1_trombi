@@ -135,7 +135,7 @@ nav a:hover::before {
 .staff img:hover {
   opacity: 1;
   border:2px solid  #015f7d;
-  
+
 }
 
 .staff {
@@ -175,7 +175,9 @@ nav a:hover::before {
   opacity: 1;
 }
 
-
+img {
+  object-fit: cover;
+}
 
 
 .manager_formateur {
@@ -235,7 +237,7 @@ nav a:hover::before {
   margin : 2% 0% 2% 2%;
   padding-right: 5%;
   border-right: 2px solid black;
-} 
+}
 
 div.photo img {
   width: 200px;
@@ -249,7 +251,7 @@ div.photo img {
   color:white;
   margin-top:5%;
   margin-right:5%;
-  z-index: 6;    
+  z-index: 6;
 }
 
 
