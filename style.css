@@ -27,7 +27,7 @@ main {
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
-
+    cursor:pointer;
     transition-duration: 0.3s;
     transition-property: transform;
 }
@@ -51,7 +51,7 @@ main {
     height: 200px;
     border:2px solid #F76C6C;
     border-radius:20px;
-
+    cursor:pointer;
     }
 
 
@@ -106,6 +106,53 @@ main {
     margin: 4px;
 
 
+}
+
+/*---- transparant de pop up ----*/
+#blur {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.336);
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  z-index: 5;
+}
+
+/*---- fond pop up ----*/
+.hide {
+  position : fixed;
+  margin: 10% 10% 10% 10%;
+  height: 60%;
+  width: 70%;
+  background: lightgrey;
+  visibility: hidden;
+  display: flex;
+  z-index: 7;
+}
+
+/*---- style photo popup ----*/
+
+.photo {
+  position: relative;
+  float:left;
+  margin : 2% 0% 2% 2%;
+  padding-right: 5%;
+  border-right: 2px solid black;
+} 
+
+div.photo img {
+  width: 200px;
+  height: 200px;
+}
+
+/*--- Bouton pour fermer ---*/
+.close {
+  float:right;
+  font-size: 25px;
+  color:white;
+  margin-top:5%;
+  margin-right:5%;
+  z-index: 6;    
 }
 
 
