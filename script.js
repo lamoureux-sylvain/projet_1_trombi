@@ -69,12 +69,12 @@ function info_page(id) {
     alert(message);
   }
   if (id == "05") {
-    var name = "Godegroy Courtin";
-    var age = "x ans";
-    var mail = "mail: mail@gmail.com";
-    var tel = "tél: 00.00.00.00.00";
-    var lien1 = "Git: www.monlien.com";
-    var lien2 = "LinkedIn: www.monlien.com";
+    var name="Godefroy Courtin";
+    var age="30 ans";
+    var mail="mail: courtin.godefroy@gmail.com";
+    var tel="tél: 06.50.87.75.90";
+    var lien1="Git: https://github.com/GodefroyCourtin";
+    var lien2="LinkedIn: https://www.linkedin.com/in/godefroy-courtin/";
     var message = name + '\n\n' + age + '\n' + mail + '\n' + tel + '\n\n' + lien1 + '\n' + lien2;
 
     alert(message);
