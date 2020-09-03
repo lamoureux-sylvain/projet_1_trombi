@@ -49,9 +49,9 @@ function info_page(id) {
   }
   if (id == "03") {
     var name = "Remi Julien";
-    var age = "Inconnu";
-    var mail = "mail: Inconnu";
-    var tel = "tél: Inconnu";
+    var age = " non communiqué";
+    var mail = "mail: non communiqué";
+    var tel = "tél: non communiqué";
     var lien2 = "LinkedIn: https://www.linkedin.com/in/remi-julien/";
     var message = name + '\n\n' + age + '\n' + mail + '\n' + tel + '\n\n' + lien2;
 
@@ -83,9 +83,10 @@ function info_page(id) {
     var name = "Stéphanie Dumont";
     var age = "35 ans";
     var mail = "mail: stephanie_dumont@hotmail.fr";
-    var tel = "tél: 00.00.00.00.00";
+    var tel = "tél: non communiqué";
     var lien1 = "Git: https://github.com/Stephanie89dumont";
     var lien2 = "LinkedIn: https://www.linkedin.com/in/dumontstephanie/";
+    var message = name + '\n\n' + age + '\n' + mail + '\n' + tel + '\n\n' + lien1 + '\n' + lien2;
 
     alert(message);
   }
@@ -140,6 +141,7 @@ function info_page(id) {
     var tel = "tél: 07.81.79.53.62";
     var lien1 = "Git: https://github.com/RoliqueSuperSonic9000";
     var lien2 = "LinkedIn: https://www.linkedin.com/in/rolique-oponga-7254131b6/";
+    var message = name + '\n\n' + age + '\n' + mail + '\n' + tel + '\n\n' + lien1 + '\n' + lien2;
 
     alert(message);
   }
@@ -161,6 +163,8 @@ function info_page(id) {
     var tel = "tél: 06.14.78.31.38";
     var lien1 = "Git: https://github.com/PierreRWCS";
     var lien2 = "LinkedIn: linkedin.com/in/pierre-rabu-69082b3a";
+    var message = name + '\n\n' + age + '\n' + mail + '\n' + tel + '\n\n' + lien1 + '\n' + lien2;
+
     alert(message);
   }
   if (id == "14") {
