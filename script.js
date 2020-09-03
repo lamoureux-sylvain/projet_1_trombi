@@ -95,7 +95,7 @@ function info_page(id) {
     var mail = "mail: elineau.sylvain@gmail.com";
     var tel = "tél: 06.70.67.77.67";
     var lien1 = "Git: https://github.com/elineau45";
-    var lien2 = "LinkedIn: https://www.linkedin.com/in/sylvain-elineau/"
+    var lien2 = "LinkedIn: https://www.linkedin.com/in/sylvain-elineau/";
     var message = name + '\n\n' + age + '\n' + mail + '\n' + tel + '\n\n' + lien1 + '\n' + lien2;
 
     alert(message);
