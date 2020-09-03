@@ -58,34 +58,34 @@ function info_page(id) {
     alert(message);
   }
   if (id == "04") {
-    var name="frédéric BERTRAND";
-    var age="50 ans";
-    var mail="mail: fredericbertrand888@gmail.com";
-    var tel="tél: 06.18.09.94.27";
-    var lien1="Git: https://github.com/fredericbertrand";
-    var lien2="LinkedIn: https://www.linkedin.com/in/frederic-bertrand/";
+    var name = "frédéric BERTRAND";
+    var age = "50 ans";
+    var mail = "mail: fredericbertrand888@gmail.com";
+    var tel = "tél: 06.18.09.94.27";
+    var lien1 = "Git: https://github.com/fredericbertrand";
+    var lien2 = "LinkedIn: https://www.linkedin.com/in/frederic-bertrand/";
     var message = name + '\n\n' + age + '\n' + mail + '\n' + tel + '\n\n' + lien1 + '\n' + lien2;
 
     alert(message);
   }
   if (id == "05") {
-    var name="Godefroy Courtin";
-    var age="30 ans";
-    var mail="mail: courtin.godefroy@gmail.com";
-    var tel="tél: 06.50.87.75.90";
-    var lien1="Git: https://github.com/GodefroyCourtin";
-    var lien2="LinkedIn: https://www.linkedin.com/in/godefroy-courtin/";
+    var name = "Godefroy Courtin";
+    var age = "30 ans";
+    var mail = "mail: courtin.godefroy@gmail.com";
+    var tel = "tél: 06.50.87.75.90";
+    var lien1 = "Git: https://github.com/GodefroyCourtin";
+    var lien2 = "LinkedIn: https://www.linkedin.com/in/godefroy-courtin/";
     var message = name + '\n\n' + age + '\n' + mail + '\n' + tel + '\n\n' + lien1 + '\n' + lien2;
 
     alert(message);
   }
   if (id == "06") {
-    var name="Stéphanie Dumont";
-    var age="35 ans";
-    var mail="mail: stephanie_dumont@hotmail.fr";
-    var tel="tél: 00.00.00.00.00";
-    var lien1="Git: https://github.com/Stephanie89dumont";
-    var lien2="LinkedIn: https://www.linkedin.com/in/dumontstephanie/";
+    var name = "Stéphanie Dumont";
+    var age = "35 ans";
+    var mail = "mail: stephanie_dumont@hotmail.fr";
+    var tel = "tél: 00.00.00.00.00";
+    var lien1 = "Git: https://github.com/Stephanie89dumont";
+    var lien2 = "LinkedIn: https://www.linkedin.com/in/dumontstephanie/";
 
     alert(message);
   }
@@ -134,12 +134,12 @@ function info_page(id) {
     alert(message);
   }
   if (id == "11") {
-    var name="Rolique OPONGA";
-    var age="46 ans";
-    var mail="mail: faisceaux.coherent@gmail.com";
-    var tel="tél: 07.81.79.53.62";
-    var lien1="Git: https://github.com/RoliqueSuperSonic9000";
-    var lien2="LinkedIn: https://www.linkedin.com/in/rolique-oponga-7254131b6/";
+    var name = "Rolique OPONGA";
+    var age = "46 ans";
+    var mail = "mail: faisceaux.coherent@gmail.com";
+    var tel = "tél: 07.81.79.53.62";
+    var lien1 = "Git: https://github.com/RoliqueSuperSonic9000";
+    var lien2 = "LinkedIn: https://www.linkedin.com/in/rolique-oponga-7254131b6/";
 
     alert(message);
   }
@@ -155,12 +155,12 @@ function info_page(id) {
     alert(message);
   }
   if (id == "13") {
-    var name="Pierre rabu";
-    var age="45 ans";
-    var mail="mail: rabu.pierre.data@free.fr";
-    var tel="tél: 06.14.78.31.38";
-    var lien1="Git: https://github.com/PierreRWCS";
-    var lien2="LinkedIn: linkedin.com/in/pierre-rabu-69082b3a;
+    var name = "Pierre rabu";
+    var age = "45 ans";
+    var mail = "mail: rabu.pierre.data@free.fr";
+    var tel = "tél: 06.14.78.31.38";
+    var lien1 = "Git: https://github.com/PierreRWCS";
+    var lien2 = "LinkedIn: linkedin.com/in/pierre-rabu-69082b3a";
     alert(message);
   }
   if (id == "14") {
